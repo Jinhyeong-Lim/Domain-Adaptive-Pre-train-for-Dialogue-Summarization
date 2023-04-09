@@ -81,3 +81,15 @@ torchrun --nproc_per_node=1 run_summarization.py \
   --fp16 \
   --predict_with_generate
 ```
+
+### Loss Graph
+![Untitled (2)](https://user-images.githubusercontent.com/64317686/230779759-9d90e558-49ea-4e58-a197-e9da54061732.png)
+
+
+### Performance
+
+| Model | R1 | R2 | RL |
+| :-----------: | :------------: | :------------: |:------------: |
+| Naive Fine tuning   |  31.3613  |    17.6152    |     28.2803    |
+| **Post training then Fine tuning**   |   **32.591**  |    **18.5439**    |     **29.4671**    |
+
