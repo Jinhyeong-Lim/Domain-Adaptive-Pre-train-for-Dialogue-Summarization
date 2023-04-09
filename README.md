@@ -85,7 +85,10 @@ torchrun --nproc_per_node=1 run_summarization.py \
 ### Loss Graph
 ![Untitled (2)](https://user-images.githubusercontent.com/64317686/230779759-9d90e558-49ea-4e58-a197-e9da54061732.png)
 
-
+- Post train 과정
+    - 400 ~ 600 step 범위에서 loss 수렴 (해당 부분에서 early stopping), 이 후 loss 상승 후 다시 수렴
+    - Post-training 데이터 대략 28만개, 약 2 epoch 정도 최저점 부근에서 loss 수렴 하고, 이 후 loss 상승 (Overfitting 발생 추정)
+    
 ### Performance
 
 | Model | R1 | R2 | RL |
