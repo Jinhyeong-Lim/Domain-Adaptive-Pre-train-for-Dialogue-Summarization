@@ -8,7 +8,7 @@
 > which you may need to register and login first.
  
 ### Data generation
-[Download](https://drive.google.com/file/d/1nODYkmuTYAl3hy6dLYeeZFJM7RRZbyN6/view?usp=share_link) aihub dialogue summary dataset. 
+Download aihub dialogue summary dataset. 
 
 ```bash
 python data_generator.py --path aihub_dialogue_summary --output data 
