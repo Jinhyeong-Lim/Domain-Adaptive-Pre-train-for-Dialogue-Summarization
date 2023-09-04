@@ -94,5 +94,5 @@ torchrun --nproc_per_node=1 run_summarization.py \
 | Model | R1 | R2 | RL |
 | :-----------: | :------------: | :------------: |:------------: |
 | Naive Fine tuning   |  31.3613  |    17.6152    |     28.2803    |
-| **Post training then Fine tuning**   |   **32.591**  |    **18.5439**    |     **29.4671**    |
+| **Post training then Fine tuning**   |   **32.5910**  |    **18.5439**    |     **29.4671**    |
 
